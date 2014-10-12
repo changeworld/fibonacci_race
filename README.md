@@ -7,3 +7,4 @@
 Language | TIME, MS | MEMORY, BYTES
 :------: |---------:|-------------:
 Ruby     | 106      | 2510848
+Scala     | 1222     | 1679360
