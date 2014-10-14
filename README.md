@@ -9,3 +9,4 @@ Language | TIME, MS | MEMORY, BYTES
 Ruby     | 106      | 2510848
 Scala     | 1222     | 1679360
 C#     | 158     | 4853760
+Java     | 386     | 4517888
