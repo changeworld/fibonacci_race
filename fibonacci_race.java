@@ -1,25 +1,16 @@
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
 public class Main {
-    
     public static void main (String[] args) {
-        Scanner inputScanner = null;
         try {
-            inputScanner = new Scanner(new File(args[0]));
-        } catch (FileNotFoundException e) {
-            System.err.println("Invalid file input.");
+        Scanner scanner = new Scanner(new File(args[0]));
+        while (scanner.hasNext()) {
+            System.out.println(fib(scanner.nextInt()));
         }
-      	while (inputScanner.hasNext()) {
-            System.out.println(fibo(inputScanner.nextInt()));
-        }
+        } catch(FileNotFoundException e) {}
     }
-    
-    private static int fibo(int i) {
-        if (i < 2) {
-            return i;
-        }
-        return Main.fibo(i-1) + Main.fibo(i-2);
+    private static int fib(int i) {
+        return i < 2 ? i : Main.fib(i-1) + Main.fib(i-2);
     }
 }

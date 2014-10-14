@@ -9,7 +9,7 @@ Language | TIME, MS | MEMORY, BYTES
 Ruby     | 106      | 2510848
 Scala     | 1222     | 1679360
 C#     | 158     | 4853760
-Java     | 386     | 4517888
+Java     | 390     | 3616768
 JavaScript     | 159     | 5439488
 Lua     | 33     | 4096
 Python 2 | 149     | 3481600
