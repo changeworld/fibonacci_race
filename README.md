@@ -18,4 +18,6 @@ Perl       | 68       | 1789952
 C          | 30       | 4096
 Bash       | 63       | 4096
 PHP        | 86       | 7004160
+Clojure    | 5815     | 66879488
 
+- Clojureは「Partially」なので後日修正。（Reduce memory usage to 20 Mb.）
