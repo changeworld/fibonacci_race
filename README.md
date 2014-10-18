@@ -22,3 +22,10 @@ Clojure    | 5815     | 66879488
 Go         | 29       | 4096
 
 - Clojureは「Partially」なので後日修正。（Reduce memory usage to 20 Mb.）
+
+## 結果(仮想マシン)
+
+Language   | TIME, real | TIME, user | TIME, sys
+:--------: |-----------:|-----------:|-----------:
+OCaml      | 0m0.019s   | 0m0.012s   | 0m0.006s
+
