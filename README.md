@@ -25,7 +25,8 @@ Go         | 29       | 4096
 
 ## 結果(仮想マシン)
 
-Language   | TIME, real | TIME, user | TIME, sys
-:--------: |-----------:|-----------:|-----------:
-OCaml      | 0m0.019s   | 0m0.012s   | 0m0.006s
+Language    | TIME, real | TIME, user | TIME, sys
+:----------:|-----------:|-----------:|-----------:
+OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
+Objective-C | 0m0.061s   | 0m0.037s   | 0m0.024s
 
