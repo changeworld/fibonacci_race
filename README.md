@@ -21,6 +21,7 @@ PHP        | 86       | 7004160
 Clojure    | 5815     | 66879488
 Go         | 29       | 4096
 Tcl         | 380       | 1953792
+C++         | 31      | 4096
 
 - Clojureは「Partially」なので後日修正。（Reduce memory usage to 20 Mb.）
 
