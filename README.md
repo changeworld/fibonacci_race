@@ -28,5 +28,5 @@ Go         | 29       | 4096
 Language    | TIME, real | TIME, user | TIME, sys
 :----------:|-----------:|-----------:|-----------:
 OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
-Objective-C | 0m0.061s   | 0m0.037s   | 0m0.024s
+Objective-C | 0m0.013s   | 0m0.001s   | 0m0.001s
 
