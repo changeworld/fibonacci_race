@@ -35,6 +35,8 @@ Erlang      | 0m0.178s   | 0m0.157s   | 0m0.015s
 Ruby        | 0m0.063s   | 0m0.057s   | 0m0.005s
 Scala       | 0m0.592s   | 0m0.495s   | 0m0.095s
 Groovy      | 0m2.964s   | 0m2.770s   | 0m0.189s
+C           | 0m0.001s   | 0m0.000s   | 0m0.001s
+Tcl         | 0m0.204s   | 0m0.139s   | 0m0.003s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
