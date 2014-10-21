@@ -3,7 +3,7 @@
     using System;
     using System.IO;
 
-    public class Program
+    public class fibonacci_race
     {
         public static void Main(string[] args)
         {
@@ -27,19 +27,12 @@
     {
         public static int GetFibonacciNumber(int index)
         {
-            switch (index)
+            if (index < 2)
             {
-                case 0:
-                    return 0;
-                case 1:
-                    return 1;
-                case 2:
-                    return 1;
-                default:
-                    var fibo = (1/Math.Sqrt(5))*
-                               (Math.Pow(((1 + Math.Sqrt(5))/2), index) - Math.Pow(((1 - Math.Sqrt(5))/2), index));
-                    return (int) fibo;
+                return index;
             }
+
+            return GetFibonacciNumber(index - 1) + GetFibonacciNumber(index - 2);
         }
     }
 }
