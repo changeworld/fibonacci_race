@@ -20,8 +20,8 @@ Bash       | 63       | 4096
 PHP        | 86       | 7004160
 Clojure    | 5815     | 66879488
 Go         | 29       | 4096
-Tcl         | 380       | 1953792
-C++         | 31      | 4096
+Tcl        | 380     | 1953792
+C++        | 31      | 4096
 
 - Clojureは「Partially」なので後日修正。（Reduce memory usage to 20 Mb.）
 
@@ -33,6 +33,7 @@ OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
 Objective-C | 0m0.013s   | 0m0.001s   | 0m0.001s
 Erlang      | 0m0.178s   | 0m0.157s   | 0m0.015s
 Ruby        | 0m0.063s   | 0m0.057s   | 0m0.005s
+Scala       | 0m0.592s   | 0m0.495s   | 0m0.095s
 
 ## 結果(仮想マシン/Windows)
 
