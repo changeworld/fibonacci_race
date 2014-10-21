@@ -36,8 +36,12 @@ Ruby        | 0m0.063s   | 0m0.057s   | 0m0.005s
 Scala       | 0m0.592s   | 0m0.495s   | 0m0.095s
 Groovy      | 0m2.964s   | 0m2.770s   | 0m0.189s
 
-## 結果(仮想マシン/Windows)
+## 結果(仮想マシン/WindowsServer2012R2)
 
 Language   | TIME, MS 
 :--------: |---------:
-F#         | 241      
+F#         | 241
+C#         | 50
+C         | 21
+C++         | 24
+Tcl         | 222
