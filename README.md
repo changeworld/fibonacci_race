@@ -32,6 +32,7 @@ Language    | TIME, real | TIME, user | TIME, sys
 OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
 Objective-C | 0m0.013s   | 0m0.001s   | 0m0.001s
 Erlang      | 0m0.178s   | 0m0.157s   | 0m0.015s
+Ruby        | 0m0.063s   | 0m0.057s   | 0m0.005s
 
 ## 結果(仮想マシン/Windows)
 

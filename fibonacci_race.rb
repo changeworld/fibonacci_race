@@ -2,7 +2,11 @@
 require 'matrix'
 
 def fibonacci i
-  (Matrix[[1,1],[1,0]]**i)[0,1]
+  f0, f1 = 0, 1
+  i.times do
+    f0, f1 = f1, f0+f1
+  end
+  return f0
 end
 
 filename = ARGV[0]
