@@ -1,6 +1,7 @@
-﻿# fibonacci_race
+# fibonacci_race
 
 各言語でフィボナッチ数列の処理速度を比較するプロジェクトです。
+- [githubpage](http://changeworld.github.io/fibonacci_race)
 
 ## 結果
 
