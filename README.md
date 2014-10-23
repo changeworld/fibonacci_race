@@ -48,6 +48,7 @@ Lua         | 0m0.008s   | 0m0.007s   | 0m0.001s
 Python2     | 0m0.042s   | 0m0.036s   | 0m0.005s
 Python3     | 0m0.047s   | 0m0.040s   | 0m0.007s
 Clojure     | 0m3.061s   | 0m2.803s   | 0m0.246s
+CoffeeScript | 0m0.234s  | 0m0.216s   | 0m0.018s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
@@ -74,6 +75,8 @@ Python2    | 89
 Python3    | 143
 Clojure    | 514
 Delphi    | 28
+CoffeeScript | 316
+
 - ひまわりはコンソールに表示する方法がない？ため計測不能。
 - プロデルは「コンソール版の実行可能ファイル」がエラーで作成できなかったため計測不能。
  - 環境依存か？
