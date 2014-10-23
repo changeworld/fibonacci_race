@@ -6,14 +6,7 @@ proc fib {i} {
 	}
 }
 
-foreach filename $argv {
-    if [file exists $filename] {
-        set f [open $filename r]
-        while {[gets $f buffer] >= 0} {
-            puts [fib $buffer]
-        }
-        close $f
-    } else {
-        puts "$filename が見つからない"
-    }
+set inputArray [list 19 9 2 16 3 8 0 6 4 17 5 1 14 12 15 13 10 7 11 18]
+foreach input $inputArray {
+	puts [fib $input]
 }
