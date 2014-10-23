@@ -2,10 +2,6 @@
 //
 
 #include <stdio.h>
-#include <iostream>
-#include <fstream>
-#include <string>
-
 
 int fibonacci(int i)
 {
@@ -19,22 +15,16 @@ int fibonacci(int i)
 	}
 }
 
-
 int main(int argc, char* argv[])
-{
-	if( 1 < argc)
-	{
-		std::ifstream ifs(argv[1]);		
-		std::string str;
+{	
+	int inputArray[] = {19,9,2,16,3,8,0,6,4,17,5,1,14,12,15,13,10,7,11,18};
 
-		if(!ifs.fail())
-		{
-			while(getline(ifs,str))
-			{
-				int index = std::atoi(str.c_str());
-				int fiboNumber = fibonacci(index);
-				std::cout << fiboNumber << std::endl;
-			}
-		}
-	}
+	int inputLength = sizeof(inputArray) / sizeof(inputArray[0]);
+	
+	int i = 0;
+	for(i =0; i<inputLength; i++)
+	{
+		int fiboNumber = fibonacci(inputArray[i]);
+		printf("%d\n",fiboNumber);
+	}	
 }
