@@ -1,24 +1,16 @@
 ﻿namespace Fibonacci
 {
     using System;
-    using System.IO;
 
     public class fibonacci_race
     {
         public static void Main(string[] args)
         {
-            if (0 < args.Length)
-            {
-                var fileName = args[0];
+            int[] inputArray = {19, 9, 2, 16, 3, 8, 0, 6, 4, 17, 5, 1, 14, 12, 15, 13, 10, 7, 11, 18};
 
-                using (var reader = new StreamReader(fileName, true))
-                {
-                    string numberString;
-                    while ((numberString = reader.ReadLine()) != null)
-                    {
-                        Console.WriteLine(Fibonacci.GetFibonacciNumber(int.Parse(numberString)));
-                    }
-                }
+            foreach (var i in inputArray)
+            {
+                Console.WriteLine(Fibonacci.GetFibonacciNumber(i));
             }
         }
     }
