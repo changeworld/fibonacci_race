@@ -1,10 +1,7 @@
-open(INFILE, "<", $ARGV[0]) or die("Cannot open file $ARGV[0] for reading: $!");
-while(my $line = <INFILE>) {
-    next if($line =~ m/^\s$/);
-    $line =~ s/(^\s|\s*$)//g;
-    printf("%d\n", fibonacci($line));
+my @array = ("19", "9", "2", "16", "3", "8", "0", "6", "4", "17", "5", "1", "14", "12", "15", "13", "10", "7", "11", "18");
+foreach my $var(@array){
+    printf("%d\n", fibonacci($var));
 }
-close(INFILE);
 
 sub fibonacci($) {
     return $_[0] if ($_[0] < 2);
