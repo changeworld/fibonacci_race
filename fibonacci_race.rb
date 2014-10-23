@@ -9,8 +9,7 @@ def fibonacci i
   return f0
 end
 
-filename = ARGV[0]
-file = File.open(filename).each do |line|
+array = [19, 9, 2, 16, 3, 8, 0, 6, 4, 17, 5, 1, 14, 12, 15, 13, 10, 7, 11, 18]
+array.each do |line|
   puts fibonacci line.to_i
 end
-file.close
