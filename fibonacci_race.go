@@ -1,10 +1,6 @@
 package main
 
 import "fmt"
-import "log"
-import "bufio"
-import "os"
-import "strconv"
 
 func fib( i int) int {
     if i < 2 {
@@ -14,15 +10,8 @@ func fib( i int) int {
 }
 
 func main() {
-    file, err := os.Open(os.Args[1])
-    if err != nil {
-        log.Fatal(err)
-    }   
-    defer file.Close()
-    scanner := bufio.NewScanner(file)
-    for scanner.Scan() {
-        var i int
-        i, _ = strconv.Atoi(scanner.Text())
-        fmt.Println(fib(i))
+    input_list := [20]int{19,9,2,16,3,8,0,6,4,17,5,1,14,12,15,13,10,7,11,18}
+    for _,num := range input_list {
+      fmt.Println(fib(num))
     }
 }
