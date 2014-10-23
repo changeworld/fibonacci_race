@@ -38,7 +38,7 @@ Scala        | 0m0.552s   | 0m0.483s   | 0m0.068s
 Groovy       | 0m2.964s   | 0m2.770s   | 0m0.189s
 C            | 0m0.001s   | 0m0.000s   | 0m0.001s
 Tcl          | 0m0.219s   | 0m0.216s   | 0m0.003s
-jRuby        | 0m1.480s   | 0m1.254s   | 0m0.192s
+JRuby        | 0m1.480s   | 0m1.254s   | 0m0.192s
 Smalltalk    | 0m0.014s   | 0m0.007s   | 0m0.007s
 Java         | 0m0.125s   | 0m0.090s   | 0m0.034s
 Go           | 0m0.248s   | 0m0.204s   | 0m0.043s
@@ -50,6 +50,7 @@ Python3      | 0m0.047s   | 0m0.040s   | 0m0.007s
 Clojure      | 0m3.061s   | 0m2.803s   | 0m0.246s
 CoffeeScript | 0m0.234s   | 0m0.216s   | 0m0.018s
 Bash         | 0m0.007s   | 0m0.006s   | 0m0.001s
+PHP          | 0m0.022s   | 0m0.011s   | 0m0.011s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
@@ -65,7 +66,7 @@ Tcl        | 241
 PowerShell | 5505
 プロデル   | -
 Groovy     | 498
-jRuby      | 852
+JRuby      | 852
 Haskell      | 26
 MS-DOSコマンドライン | 110
 Java       | 245
