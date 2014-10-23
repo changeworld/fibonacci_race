@@ -34,7 +34,7 @@ OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
 Objective-C | 0m0.013s   | 0m0.001s   | 0m0.001s
 Erlang      | 0m0.178s   | 0m0.157s   | 0m0.015s
 Ruby        | 0m0.059s   | 0m0.057s   | 0m0.002s
-Scala       | 0m0.592s   | 0m0.495s   | 0m0.095s
+Scala       | 0m0.552s   | 0m0.483s   | 0m0.068s
 Groovy      | 0m2.964s   | 0m2.770s   | 0m0.189s
 C           | 0m0.001s   | 0m0.000s   | 0m0.001s
 Tcl         | 0m0.204s   | 0m0.139s   | 0m0.003s
