@@ -2,24 +2,16 @@
 #include<stdlib.h>
 
 int main(int argc, char *argv[])
-{
-	if(1 < argc)
-	{
-		FILE *fp;
-		char *fname = argv[1];
-		char s[100];	
+{			
+	int input[] = {19,9,2,16,3,8,0,6,4,17,5,1,14,12,15,13,10,7,11,18};
+	int inputArraySize = sizeof input / sizeof input[0];	
 
-		fp = fopen(fname,"r");
-		if(fp != NULL)
-		{
-			while(fgets(s,100,fp) != NULL)
-			{
-				int index = atoi(s);
-				int fiboNumber = fibonacci(index);
-				printf("%d\n",fiboNumber);
-			}
-		}	
-	}
+	int i = 0;
+	for(i =  0; i < inputArraySize; i++)
+	{		
+		int fiboNumber = fibonacci(input[i]);
+		printf("%d\n",fiboNumber);
+	}			
 }
 
 int fibonacci(int i)
