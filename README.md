@@ -47,6 +47,7 @@ JavaScript  | 0m0.101s   | 0m0.091s   | 0m0.010s
 Lua         | 0m0.008s   | 0m0.007s   | 0m0.001s
 Python2     | 0m0.042s   | 0m0.036s   | 0m0.005s
 Python3     | 0m0.047s   | 0m0.040s   | 0m0.007s
+Clojure     | 0m3.061s   | 0m2.803s   | 0m0.246s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
@@ -71,6 +72,7 @@ JavaScript | 197
 Lua        | 60
 Python2    | 89
 Python3    | 143
+Clojure    | 514
 
 - ひまわりはコンソールに表示する方法がない？ため計測不能。
 - プロデルは「コンソール版の実行可能ファイル」がエラーで作成できなかったため計測不能。
