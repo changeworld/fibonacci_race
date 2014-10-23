@@ -37,7 +37,7 @@ Ruby        | 0m0.059s   | 0m0.057s   | 0m0.002s
 Scala       | 0m0.552s   | 0m0.483s   | 0m0.068s
 Groovy      | 0m2.964s   | 0m2.770s   | 0m0.189s
 C           | 0m0.001s   | 0m0.000s   | 0m0.001s
-Tcl         | 0m0.204s   | 0m0.139s   | 0m0.003s
+Tcl         | 0m0.219s   | 0m0.216s   | 0m0.003s
 jRuby       | 0m1.480s   | 0m1.254s   | 0m0.192s
 Smalltalk   | 0m0.014s   | 0m0.007s   | 0m0.007s
 Java        | 0m0.125s   | 0m0.090s   | 0m0.034s
