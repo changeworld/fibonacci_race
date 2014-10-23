@@ -42,6 +42,7 @@ jRuby       | 0m1.480s   | 0m1.254s   | 0m0.192s
 Smalltalk   | 0m0.014s   | 0m0.007s   | 0m0.007s
 Java        | 0m0.125s   | 0m0.090s   | 0m0.034s
 Go          | 0m0.248s   | 0m0.204s   | 0m0.043s
+C++           | 0m0.002s   | 0m0.001s   | 0m0.001s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
