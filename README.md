@@ -28,27 +28,28 @@ C++        | 31      | 4096
 
 ## 結果(仮想マシン/CentOS)
 
-Language    | TIME, real | TIME, user | TIME, sys
-:----------:|-----------:|-----------:|-----------:
-OCaml       | 0m0.019s   | 0m0.012s   | 0m0.006s
-Objective-C | 0m0.013s   | 0m0.001s   | 0m0.001s
-Erlang      | 0m0.178s   | 0m0.157s   | 0m0.015s
-Ruby        | 0m0.059s   | 0m0.057s   | 0m0.002s
-Scala       | 0m0.552s   | 0m0.483s   | 0m0.068s
-Groovy      | 0m2.964s   | 0m2.770s   | 0m0.189s
-C           | 0m0.001s   | 0m0.000s   | 0m0.001s
-Tcl         | 0m0.219s   | 0m0.216s   | 0m0.003s
-jRuby       | 0m1.480s   | 0m1.254s   | 0m0.192s
-Smalltalk   | 0m0.014s   | 0m0.007s   | 0m0.007s
-Java        | 0m0.125s   | 0m0.090s   | 0m0.034s
-Go          | 0m0.248s   | 0m0.204s   | 0m0.043s
-C++         | 0m0.002s   | 0m0.001s   | 0m0.001s
-JavaScript  | 0m0.101s   | 0m0.091s   | 0m0.010s
-Lua         | 0m0.008s   | 0m0.007s   | 0m0.001s
-Python2     | 0m0.042s   | 0m0.036s   | 0m0.005s
-Python3     | 0m0.047s   | 0m0.040s   | 0m0.007s
-Clojure     | 0m3.061s   | 0m2.803s   | 0m0.246s
-CoffeeScript | 0m0.234s  | 0m0.216s   | 0m0.018s
+Language     | TIME, real | TIME, user | TIME, sys
+:-----------:|-----------:|-----------:|-----------:
+OCaml        | 0m0.019s   | 0m0.012s   | 0m0.006s
+Objective-C  | 0m0.013s   | 0m0.001s   | 0m0.001s
+Erlang       | 0m0.178s   | 0m0.157s   | 0m0.015s
+Ruby         | 0m0.059s   | 0m0.057s   | 0m0.002s
+Scala        | 0m0.552s   | 0m0.483s   | 0m0.068s
+Groovy       | 0m2.964s   | 0m2.770s   | 0m0.189s
+C            | 0m0.001s   | 0m0.000s   | 0m0.001s
+Tcl          | 0m0.219s   | 0m0.216s   | 0m0.003s
+jRuby        | 0m1.480s   | 0m1.254s   | 0m0.192s
+Smalltalk    | 0m0.014s   | 0m0.007s   | 0m0.007s
+Java         | 0m0.125s   | 0m0.090s   | 0m0.034s
+Go           | 0m0.248s   | 0m0.204s   | 0m0.043s
+C++          | 0m0.002s   | 0m0.001s   | 0m0.001s
+JavaScript   | 0m0.101s   | 0m0.091s   | 0m0.010s
+Lua          | 0m0.008s   | 0m0.007s   | 0m0.001s
+Python2      | 0m0.042s   | 0m0.036s   | 0m0.005s
+Python3      | 0m0.047s   | 0m0.040s   | 0m0.007s
+Clojure      | 0m3.061s   | 0m2.803s   | 0m0.246s
+CoffeeScript | 0m0.234s   | 0m0.216s   | 0m0.018s
+Bash         | 0m0.007s   | 0m0.006s   | 0m0.001s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
