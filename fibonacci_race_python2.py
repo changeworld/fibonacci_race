@@ -4,8 +4,6 @@ def fib(i):
 		return i
 	return fib(i - 1) + fib(i - 2)
 
-l = open(sys.argv[1], 'r')
+l = [19,9,2,16,3,8,0,6,4,17,5,1,14,12,15,13,10,7,11,18]
 for i in l:
-    print fib(int(i))
-
-l.close()
+    print fib(i)
