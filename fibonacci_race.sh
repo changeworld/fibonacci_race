@@ -1,8 +1,10 @@
-while read line; do
-    if [[ $line =~ ^[0-9]+$ ]];then
-        num=$line
+array=("19" "9" "2" "16" "3" "8" "0" "6" "4" "17" "5" "1" "14" "12" "15" "13" "10" "7" "11" "18")
+
+for (( I = 0; I < ${#array[@]}; ++I ))
+do
+	num=${array[$I]}
         if [[ num -lt 2 ]]; then
-            echo $line
+            echo $num
         else
             f0=0
             f1=1
@@ -15,6 +17,5 @@ while read line; do
             done
             echo $((f0 + f1))
         fi
-    fi
-done < $1
+done
 
