@@ -1,7 +1,7 @@
 # fibonacci_race
 
 各言語でフィボナッチ数列の処理速度を比較するプロジェクトです。
-- [githubpage](http://changeworld.github.io/fibonacci_race_lt)
+- [LT資料](http://changeworld.github.io/fibonacci_race_lt)
 
 ## 結果
 
