@@ -52,6 +52,7 @@ CoffeeScript | 0m0.234s   | 0m0.216s   | 0m0.018s
 Bash         | 0m0.007s   | 0m0.006s   | 0m0.001s
 PHP          | 0m0.022s   | 0m0.011s   | 0m0.011s
 Perl         | 0m0.021s   | 0m0.020s   | 0m0.001s
+Haskell      | 0m0.002s   | 0m0.001s   | 0m0.000s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
