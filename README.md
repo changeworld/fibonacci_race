@@ -53,6 +53,7 @@ Bash         | 0m0.007s   | 0m0.006s   | 0m0.001s
 PHP          | 0m0.022s   | 0m0.011s   | 0m0.011s
 Perl         | 0m0.021s   | 0m0.020s   | 0m0.001s
 Haskell      | 0m0.002s   | 0m0.001s   | 0m0.000s
+TypeScript   | 0m0.102s   | 0m0.094s   | 0m0.007s
 
 ## 結果(仮想マシン/WindowsServer2012R2)
 
@@ -80,6 +81,7 @@ Python3    | 143
 Clojure    | 514
 Delphi    | 28
 CoffeeScript | 316
+TypeScript | 204
 
 - ひまわりはコンソールに表示する方法がない？ため計測不能。
 - プロデルは「コンソール版の実行可能ファイル」がエラーで作成できなかったため計測不能。
